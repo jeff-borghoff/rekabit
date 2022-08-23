@@ -3,10 +3,10 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
         "microphone": "*",
+        "pxt-esp8266": "github:cytrontechnologies/pxt-esp8266#v1.1.4",
         "pxt-rekabit": "github:cytrontechnologies/pxt-rekabit#v1.2.2",
-        "pxt-esp8266": "github:cytrontechnologies/pxt-esp8266#v1.1.4"
+        "Huskylens": "github:dfrobot/pxt-dfrobot_huskylens#v2.0.5"
     },
     "files": [
         "main.blocks",

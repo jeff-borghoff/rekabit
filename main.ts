@@ -14,3 +14,11 @@ if (esp8266.isWifiConnected()) {
 } else {
     basic.showIcon(IconNames.Sad)
 }
+huskylens.initI2c()
+huskylens.initMode(protocolAlgorithm.ALGORITHM_OBJECT_RECOGNITION)
+basic.forever(function () {
+    huskylens.request()
+    if (huskylens.isAppear_s(HUSKYLENSResultType_t.HUSKYLENSResultBlock)) {
+        esp8266.sendTelegramMessage("5687772713:AAH7ZAocx78-aLjlnqN2gAgEsX6mu_st-_Q", "-739648072", "Person Alert")
+    }
+})

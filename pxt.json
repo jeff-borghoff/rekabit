@@ -4,9 +4,8 @@
     "dependencies": {
         "core": "*",
         "microphone": "*",
-        "pxt-esp8266": "github:cytrontechnologies/pxt-esp8266#v1.1.4",
-        "pxt-rekabit": "github:cytrontechnologies/pxt-rekabit#v1.2.2",
-        "Huskylens": "github:dfrobot/pxt-dfrobot_huskylens#v2.0.5"
+        "Huskylens": "github:dfrobot/pxt-dfrobot_huskylens#v2.0.5",
+        "DFRobot_WIFI_I0T": "github:DFRobot/pxt-DFRobot_WiFi_IoT_UART#v1.0.6"
     },
     "files": [
         "main.blocks",

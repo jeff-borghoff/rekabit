@@ -1,19 +1,15 @@
 input.onButtonPressed(Button.A, function () {
 	
 })
+DFRobotWiFiIoTUART.WIFISetup(
+SerialPin.P8,
+SerialPin.P12,
+"summer_winds",
+"6093066149"
+)
+DFRobotWiFiIoTUART.IFTTTConfigure("yourEvent", "yourKey")
 let PERSON = 1
 let DOG = 2
-if (true) {
-    basic.showIcon(IconNames.Happy)
-} else {
-    basic.showIcon(IconNames.Sad)
-}
-basic.showString("Connecting")
-if (true) {
-    basic.showIcon(IconNames.Happy)
-} else {
-    basic.showIcon(IconNames.Sad)
-}
 huskylens.initI2c()
 huskylens.initMode(protocolAlgorithm.ALGORITHM_OBJECT_RECOGNITION)
 basic.forever(function () {

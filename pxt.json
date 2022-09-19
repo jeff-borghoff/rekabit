@@ -5,7 +5,7 @@
         "core": "*",
         "microphone": "*",
         "Huskylens": "github:dfrobot/pxt-dfrobot_huskylens#v2.0.5",
-        "DFRobot_WIFI_I0T": "github:DFRobot/pxt-DFRobot_WiFi_IoT_UART#v1.0.6"
+        "pxt-esp8266": "github:cytrontechnologies/pxt-esp8266#v1.1.4"
     },
     "files": [
         "main.blocks",

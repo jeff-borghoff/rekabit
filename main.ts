@@ -1,3 +1,6 @@
+input.onButtonPressed(Button.AB, function () {
+    control.reset()
+})
 esp8266.init(SerialPin.USB_TX, SerialPin.USB_RX, BaudRate.BaudRate115200)
 if (esp8266.isESP8266Initialized()) {
     basic.showIcon(IconNames.Yes)
